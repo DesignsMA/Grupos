@@ -1,3 +1,7 @@
+Proyecto creado con fines de aprendizaje, desarrollado en REACT.
+Permite la creación de grupos de trabajo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
