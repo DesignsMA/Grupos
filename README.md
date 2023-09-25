@@ -1,4 +1,5 @@
-Proyecto creado con fines de aprendizaje, desarrollado en REACT.
+Proyecto creado con fines de aprendizaje personal, desarrollado en REACT.
+
 Permite la creación de grupos de trabajo.
 
 
