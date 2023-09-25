@@ -27,7 +27,7 @@
   
   
   .header__logo {
-    width: 20vh;
+    width: 150px;
     margin-bottom: 4vh;
   }
   
@@ -39,14 +39,37 @@
   }
   
   .titulo {
-    font-size: 8vh;
+    font-size: 60px;
     font-weight: 400;
     margin-bottom: 1rem;
   }
   
   .subtitulo {
-    font-size: 4vh;
+    font-size: 40px;
     font-weight: 200;
     margin-bottom: 1rem;
   }
   
+  @media screen and (max-width: 1000px) {
+    
+    .titulo {
+      font-size: 40px;
+    }
+    
+    .subtitulo {
+      font-size: 20px;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    
+  .titulo {
+    font-size: 30px;
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+  }
+
+}
