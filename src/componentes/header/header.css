@@ -3,7 +3,7 @@
     flex-direction: column;
     align-content: space-between;
     background-color: #161616;
-    background-image: url("../../../../corp/public/img/glow.png");
+    background-image: url("/img/glow.png");
     background-repeat: no-repeat;
     background-position: 50vw;
     background-size: 200vh;
