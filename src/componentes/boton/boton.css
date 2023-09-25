@@ -1,0 +1,29 @@
+.boton button {
+    font-size: 16px;
+    width: auto;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid 2px #ffffff;
+    background: #121212;
+    margin: 16px 0px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    box-shadow: 3px 3px 3px #ff4b4b23;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.boton button:hover {
+    background: #ff5353;
+    border: solid 2px #ff5353;
+    color: white;
+    box-shadow: 3px 3px 20px #ff4b4b67;
+
+}
+
+.boton button:active {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.04);
+}

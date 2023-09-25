@@ -1,0 +1,40 @@
+.campo {
+    margin: 24px 0 ;
+    font-family: 'Montserrat', serif;
+}
+
+.campo label {
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.campo input {
+    border: none;
+    outline-color: #ff535328;
+    background-color: #252525;
+    width: 100%;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 5px 5px 15px #00000065;
+    box-sizing: border-box;
+
+}
+
+.campo input:focus {
+    box-shadow: 0 0 20px #ff535359;
+    outline-style: solid;
+    outline-color: #ff5353;
+ }
+
+.campo-color input {
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px;
+
+}

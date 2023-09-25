@@ -1,0 +1,35 @@
+.lista-opciones label {
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.lista-opciones select {
+    background-color: #252525;
+    font-size: 16px;
+    width: 100%;
+    border: solid 0px;
+    border-radius: 7px;
+    border: #eca0a000;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    padding: 15px 20px;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.lista-opciones select:focus {
+    border: solid 1px;
+    background-color: #25252500;
+    width: 100%;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 7px;
+    border-color: #f83939;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    transition: all 0.6s ease-in-out;
+    box-shadow: 3px 3px 10px #ff4b4b25;
+}

@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #161616;
+    background-image: url("../../../../corp/public/img/glow.png");
+    background-repeat: no-repeat;
+    background-position: 50vw;
+    background-size: 200vh;
+    padding:  2rem 6rem 6rem 6rem;
+    max-height: 30vh;
+    box-shadow: 0 0 100px #ff5353b2;
+    animation: breathing infinite 6s ease-in-out;
+  }
+
+  @keyframes breathing {
+    0%, 100% {
+      box-shadow: 0 0 70px #ff535352;
+
+    }
+
+    50% {
+      box-shadow: initial;
+
+    }
+  }
+  
+  
+  .header__logo {
+    width: 20vh;
+    margin-bottom: 4vh;
+  }
+  
+  .header__texto {
+    color: white;
+    font-family: Montserrat;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .titulo {
+    font-size: 8vh;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitulo {
+    font-size: 4vh;
+    font-weight: 200;
+    margin-bottom: 1rem;
+  }
+  

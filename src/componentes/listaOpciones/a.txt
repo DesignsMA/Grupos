@@ -1,0 +1,47 @@
+INICIO Algoritmo Becas
+Entrada: alumno, beca, alumnos, calificaciones
+Salida: Alumnos con beca y promedio mayor a 8.5
+
+Entero alumnos, alumnosBeca, beca, c, cTotal, contador, i
+Cadena nombre
+
+Escribir(“Escribe el número de alumnos”)
+Leer alumnos
+
+Para i hasta alumnos incremento 1
+	    Escribir(“Ingresa el nombre del alumno”)
+	    Leer nombre
+	    Escribir "¿Cuenta con beca? \n1 = Si | 0 = No“
+	    Leer beca
+	Si (beca = 1) entonces
+
+	 Para contador hasta 4 incremento 1
+	        Escribir("Ingresa la calificación" contador "del alúmno“)
+	        Leer c
+	    Si (c>=5) entonces
+            contador = contador + 1
+            cTotal = cTotal + c
+        Sino
+            Escribir(""No se aceptan calificaciones menores a 5")
+        Fin Si
+     Fin Para
+
+     Si ((cTotal / 4) > 8.5 ) entonces
+        alumnosBeca = alumnosBeca +1
+        Escribir("El alúmno", nombre, "\n Cuenta con una beca y
+         tiene un promedio mayor a 8.5"  )
+
+    Fin Si
+     
+Fin Para
+
+Escribir("Hay un total de", alumnosBeca,
+ "que cuentan con una beca y un promedio mayor a 8.5")
+
+FIN
+        
+
+
+
+    
+
