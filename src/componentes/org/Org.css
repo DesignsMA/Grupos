@@ -1,5 +1,6 @@
 .orgSection {
     width: 100%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,10 +15,6 @@
 }
 
 .orgSection img {
-    position: absolute;
-    right: 30%;
-    cursor: pointer;
-    width: 40px;
     height: 40px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.876), saturate(0%));
     transition: all 0.4s ease-in-out;
